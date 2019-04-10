@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-repository
+  profiles:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/0jas0/config-test-repository
+          search-paths: eureka-server
+server:
+  port: 10000
