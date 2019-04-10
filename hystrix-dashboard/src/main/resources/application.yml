@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: hystrix-dashboard-turbine
+server:
+  port: 8003
+turbine:
+  app-config: eureka-consumer
+  aggregator:
+    cluster-config: default
+  cluster-name-expression: new String("default")
+  combine-host-port: true
+  instanceUrlSuffix: hystrix.stream
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer2:8001/eureka/,http://peer1:8000/eurekza/,http://peer3:8002/eureka/
