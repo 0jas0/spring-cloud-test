@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16b4cc37-00ea-4fa8-9a4a-9f7ab6da2d90" name="Default" comment="" />
+    <list default="true" id="16b4cc37-00ea-4fa8-9a4a-9f7ab6da2d90" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/eureka-producer/target/" />
     <ignored path="$PROJECT_DIR$/eureka-consumer/target/" />
@@ -48,57 +51,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InstanceMonitor.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../repository/com/netflix/turbine/turbine-core/1.0.0/turbine-core-1.0.0-sources.jar!/com/netflix/turbine/monitor/instance/InstanceMonitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
-              <folding>
-                <element signature="e#9662#10499#0" expanded="true" />
-                <element signature="e#10498#10499#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EurekaProducerApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eureka-producer/src/main/java/com/jas/eurekaproducer/EurekaProducerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="252">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
+                <element signature="e#355#356#0" expanded="true" />
                 <element signature="e#422#423#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClusterMonitor.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../repository/com/netflix/turbine/turbine-core/1.0.0/turbine-core-1.0.0-sources.jar!/com/netflix/turbine/monitor/cluster/ClusterMonitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="316" column="0" lean-forward="false" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InstanceObservable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../repository/com/netflix/turbine/turbine-core/1.0.0/turbine-core-1.0.0-sources.jar!/com/netflix/turbine/discovery/InstanceObservable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="311" column="35" lean-forward="false" selection-start-line="311" selection-start-column="35" selection-end-line="311" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringClusterMonitor.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../repository/org/springframework/cloud/spring-cloud-netflix-turbine/2.1.1.RELEASE/spring-cloud-netflix-turbine-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/netflix/turbine/SpringClusterMonitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -121,16 +82,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InstanceUrlClosure.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../repository/com/netflix/turbine/turbine-core/1.0.0/turbine-core-1.0.0-sources.jar!/com/netflix/turbine/monitor/instance/InstanceUrlClosure.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -144,6 +95,9 @@
     <findStrings>
       <find>httpget</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -524,6 +478,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -797,15 +752,16 @@
       <workItem from="1554825102083" duration="202000" />
       <workItem from="1554825325904" duration="53000" />
       <workItem from="1554825396858" duration="74000" />
-      <workItem from="1554826802538" duration="10239000" />
+      <workItem from="1554826802538" duration="10401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12389000" />
+    <option name="totallyTimeSpent" value="12551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -824,9 +780,9 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14631197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19830714" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27110156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1723,14 +1679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../repository/com/netflix/turbine/turbine-core/1.0.0/turbine-core-1.0.0-sources.jar!/com/netflix/turbine/monitor/cluster/ClusterMonitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="316" column="0" lean-forward="false" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../repository/com/netflix/turbine/turbine-core/1.0.0/turbine-core-1.0.0-sources.jar!/com/netflix/turbine/discovery/InstanceObservable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
@@ -1758,11 +1706,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../../repository/com/netflix/turbine/turbine-core/1.0.0/turbine-core-1.0.0-sources.jar!/com/netflix/turbine/monitor/cluster/ClusterMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="313" column="77" lean-forward="false" selection-start-line="313" selection-start-column="77" selection-end-line="313" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-producer/src/main/java/com/jas/eurekaproducer/EurekaProducerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="252">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
+            <element signature="e#355#356#0" expanded="true" />
             <element signature="e#422#423#0" expanded="true" />
           </folding>
         </state>
