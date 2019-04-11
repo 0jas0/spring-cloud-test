@@ -4,11 +4,7 @@ spring:
 zuul:
   routes:
     api-a:
-      path: /api1/**
-      serviceId: eureka-producer
+      path: ${api1.path}
+      serviceId: ${api1.serviceId}
 server:
   port: 10001
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://peer2:8001/eureka/,http://peer1:8000/eureka/,http://peer3:8002/eureka/
