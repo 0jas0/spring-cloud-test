@@ -9,7 +9,7 @@ spring:
 zuul:
   routes:
     api-a:
-      path: ${api1.path}
-      serviceId: ${api1.serviceId}
+      path: ${api1.path} #/api1/**
+      serviceId: ${api1.serviceId} #eureka-producer
 server:
   port: 10001
